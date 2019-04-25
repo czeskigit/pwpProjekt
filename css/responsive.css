@@ -1,0 +1,84 @@
+@media all and (max-width: 960px) {
+    nav {
+        margin: auto;
+    }
+
+    .nav-sides-items {
+        display: none;
+    }
+
+    header #image-container {
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../resources/background-practices.JPG");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    header #image-container #hero-quick-contact-box {
+        padding: 10px 30px;
+        width: 100%;
+        background-color: rgba(25, 44, 112, 0.5);
+        right: 0;
+    }
+
+    header #image-container #hero-quick-contact-box h1,
+      header #image-container #hero-quick-contact-box h2 {
+        text-shadow: 2px 2px 5px #000;
+    }
+
+    header #image-container img {
+        display: none;
+    }
+
+    #about #about-section-box {
+        padding: 0 50px;
+    }
+
+    #practices #title-box {
+        height: 100px;
+    }
+
+    #practices #practises-section-box {
+        width: auto;
+    }
+
+    #mediations #med-title-container {
+        width: 100%;
+    }
+
+    #mediations #mediations-box {
+        width: 100%;
+    }
+
+    footer #contact-container {
+        width: 100%;
+    }
+
+    footer #contact-container p:nth-child(6) {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 575px) {
+    header #image-container {
+        background-image: url("../resources/zdjecie%20satrona%202.JPG");
+        background-position: top;
+    }
+
+    header #image-container #hero-quick-contact-box {
+        top: auto;
+        bottom: 0;
+    }
+
+    #about #about-section-box {
+        padding: 0 20px;
+    }
+
+    #mediations #mediations-box p {
+        padding: 0 20px;
+    }
+}

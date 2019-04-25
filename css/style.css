@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+/*colors*/
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #D7D7D7;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+    margin: 0 calc((100% - 960px)/2);
+}
+
+nav button {
+    background-color: #000;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav img:hover {
+    cursor: pointer;
+}
+
+nav #navbarSupportedContent ul {
+    width: calc(100% - 48px);
+}
+
+nav #navbarSupportedContent ul a {
+    font-size: 18px;
+    color: #2b2b2b;
+    display: inline-block;
+    transition: 0.3s all;
+}
+
+nav #navbarSupportedContent ul a:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background-color: #000;
+    transition: 0.3s all;
+}
+
+nav #navbarSupportedContent ul a:hover:after {
+    width: 100%;
+}
+
+nav #navbarSupportedContent ul li {
+    transition: 0.3s all;
+}
+
+.nav-sides-items {
+    position: fixed;
+    height: 86px;
+    width: calc((100% - 960px)/2);
+    top: 0;
+    background-color: #D7D7D7;
+}
+
+#nav-part-left {
+    left: 0;
+    z-index: 1031;
+}
+
+#nav-lower-part-left {
+    left: 0;
+    z-index: 3;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+}
+
+#nav-part-right {
+    right: 0;
+    z-index: 1031;
+}
+
+#nav-lower-part-right {
+    right: 0;
+    z-index: 3;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.8);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header #image-container {
+    position: relative;
+    margin-top: 80px;
+    width: 960px;
+}
+
+header #image-container img {
+    transform: translateX(-25%);
+}
+
+header #image-container #hero-quick-contact-box {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 320px;
+    transform: translateY(-20%);
+    color: #fff;
+}
+
+header #image-container #hero-quick-contact-box h1 {
+    font-weight: 800;
+    font-size: 24px;
+    width: 100%;
+}
+
+header #image-container #hero-quick-contact-box h2 {
+    font-size: 24px;
+    width: 100%;
+}
+
+header #image-container #hero-quick-contact-box a {
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+header #image-container #hero-quick-contact-box a i {
+    margin-left: 10px;
+    color: #fff;
+}
+
+header #image-container #hero-quick-contact-box a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+header #image-container #hero-quick-contact-box a:hover i {
+    color: #000;
+}
+
+section {
+    padding-top: 100px;
+}
+
+section span {
+    font-weight: 800;
+}
+
+#about #about-section-box {
+    width: 960px;
+    padding: 0 200px;
+}
+
+#about #about-section-box h3 {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#practices #title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#practices #title-box #desk-image {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("../resources/background-practices.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#practices #title-box #desk-image #mask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#practices #title-box h3 {
+    font-weight: 800;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+#practices #practises-section-box {
+    width: 960px;
+}
+
+#practices #practises-section-box .prac-box {
+    padding: 50px 50px 0 50px;
+    font-size: 14px;
+    opacity: 0;
+}
+
+#practices #practises-section-box .prac-box h3 {
+    font-size: 18px;
+    font-weight: 800;
+    width: 100%;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+#practices #practises-section-box .prac-box ul {
+    padding-left: 20px;
+    list-style: square;
+}
+
+#mediations {
+    display: flex;
+    justify-content: center;
+}
+
+#mediations #med-title-container {
+    width: 960px;
+    height: 100px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#mediations #med-title-container h3 {
+    text-align: center;
+    font-weight: 800;
+}
+
+#mediations #mediations-box {
+    width: 960px;
+}
+
+#mediations #mediations-box p {
+    padding: 0 100px;
+    opacity: 0;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #a1a1a0;
+    padding: 50px 0;
+}
+
+footer #contact-container {
+    width: 960px;
+}
+
+footer #contact-container p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+footer #contact-container p a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+footer #contact-container p a:hover {
+    color: #000;
+}
+
+footer #contact-container p:nth-child(4),
+    footer #contact-container p:nth-child(5) {
+    margin: 20px;
+}
+
+footer #contact-container p:nth-child(6) {
+    color: #000;
+    font-weight: 800;
+    display: block;
+    width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+footer #contact-container h3 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+footer #contact-container img {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="47.503px" height="47.505px" viewBox="0 0 47.503 47.505" enable-background="new 0 0 47.503 47.505" xml:space="preserve">
+<symbol  id="New_Symbol" viewBox="-97.227 -48.87 194.453 194.453">
+	<g>
+		<path stroke="#010202" stroke-width="12" stroke-miterlimit="10" d="M10.313,107.966c0-5.696-4.617-10.313-10.313-10.313
+			s-10.313,4.617-10.313,10.313S-5.695,118.279,0,118.279S10.313,113.662,10.313,107.966z"/>
+		<polyline fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" points="-43.381,21.064 -0.07,84.378 
+			43.381,21.064 		"/>
+		<line fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" x1="0" y1="100.242" x2="0" y2="-19.246"/>
+		<path fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" d="M-22.352,21.064
+			c0-11.547-9.361-20.908-20.908-20.908s-20.908,9.361-20.908,20.908H-22.352z"/>
+		<path fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" d="M62.67,21.064
+			c0-11.547-9.361-20.908-20.908-20.908c-11.548,0-20.908,9.361-20.908,20.908H62.67z"/>
+		
+			<line fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" x1="-17.656" y1="-19.246" x2="17.656" y2="-19.246"/>
+		<path fill="none" stroke="#010202" stroke-width="12" stroke-miterlimit="10" d="M91.227,48.356
+			C91.227-2.026,50.383-42.87,0-42.87S-91.227-2.026-91.227,48.356c0,50.384,40.844,91.227,91.227,91.227
+			S91.227,98.74,91.227,48.356z"/>
+	</g>
+	<path fill="#010202" d="M47.858,63.029h-4.018v-4.179h-2.679v14.202c2.232,0,4.465,0.021,6.696,0.021
+		C54.797,73.073,54.817,63.029,47.858,63.029z M43.841,65.485h4.018c3.429,0,3.409,5.032,0,5.032h-4.018V65.485z"/>
+	<path fill="#010202" d="M-42.518,63.029h-4.018v-4.179h-2.678v14.202c2.232,0,4.463,0.021,6.695,0.021
+		C-35.579,73.073-35.559,63.029-42.518,63.029z M-46.535,65.485h4.018c3.429,0,3.408,5.032,0,5.032h-4.018V65.485z"/>
+	<g>
+		<path fill="#FFFFFF" d="M3.936,101.919H2.32l-1.256,3.172l-1.066,3.187l-1.053-3.214l-1.227-3.145h-1.613l-3.706,10.094h2.134
+			l2.379-7.282l2.451,7.282h1.24l2.523-7.282l2.309,7.282h2.133L3.936,101.919z"/>
+	</g>
+</symbol>
+<symbol  id="New_Symbol_1" viewBox="-151.508 -23.751 47.505 47.505">
+	
+		<use xlink:href="#New_Symbol"  width="194.453" height="194.453" id="XMLID_4_" x="-97.227" y="-48.87" transform="matrix(0.2443 0 0 0.2443 -127.7559 -11.8125)" overflow="visible"/>
+</symbol>
+<use xlink:href="#New_Symbol_1"  width="47.505" height="47.505" id="XMLID_2_" x="-151.508" y="-23.751" transform="matrix(1 0 0 -1 151.5083 23.7534)" overflow="visible"/>
+</svg>
