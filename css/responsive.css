@@ -62,7 +62,7 @@
     }
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 560px) {
     header #image-container {
         background-image: url("../resources/phone.png");
         background-position: top;
