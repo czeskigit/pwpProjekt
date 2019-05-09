@@ -20,13 +20,14 @@
 
     header #image-container #hero-quick-contact-box {
         padding: 10px 30px;
-        width: 45%;
+        width: 47%;
         right: 0;
     }
 
     header #image-container #hero-quick-contact-box h1,
       header #image-container #hero-quick-contact-box h2 {
         text-shadow: 2px 2px 5px #000;
+        font-size: 27px;
     }
 
     header #image-container img {
